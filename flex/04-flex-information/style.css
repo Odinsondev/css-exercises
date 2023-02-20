@@ -10,7 +10,50 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  text-align: center;
+}
+
+.plant1 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
+.plant2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
+.plant3 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
+.plant4 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
+/* no need for colums, individual plant containers could have been blocks inside */
 
 /* do not edit this footer */
 .footer {
